@@ -33,6 +33,7 @@ namespace _17._07._2014___AccountManagement
                     return "$" + amount.ToString();
             }
         }
+        
         public decimal Amount{
             get { return amount; }
             set { amount = value; }
